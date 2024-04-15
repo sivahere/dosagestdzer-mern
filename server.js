@@ -15,8 +15,6 @@ const path = require('path');
 //config env file
 dotenv.config();
 
-//database call
-connectDb(); 
 
  //rest object
  const app = express();
@@ -50,10 +48,13 @@ app.get('*', function(req, res){
 //port 
 const PORT = 8080 || process.env.PORT;
 
-//listen server
+connectDb().then(()=>{
+ //listen server
 app.listen(PORT, () => {
     console.log("Server running on port "+PORT);
 });
+}); 
+
 
 // const sslServer = https.createServer({
 //     key: fs.readFileSync('./cert/server.key'),
