@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3bb68c6e.css",
+    "main.js": "/static/js/main.6c8d0c2a.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/hormonetherpy.png": "/static/media/hormonetherpy.3dafb25b76394f9f7b10.png",
+    "index.html": "/index.html",
+    "main.3bb68c6e.css.map": "/static/css/main.3bb68c6e.css.map",
+    "main.6c8d0c2a.js.map": "/static/js/main.6c8d0c2a.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bb68c6e.css",
+    "static/js/main.6c8d0c2a.js"
+  ]
+}
